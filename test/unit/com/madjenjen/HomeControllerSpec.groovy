@@ -1,4 +1,6 @@
-package com.theconnman
+package com.madjenjen
+
+import com.madjenjen.HomeController;
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification

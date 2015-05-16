@@ -1,6 +1,6 @@
+import com.madjenjen.User;
+import com.madjenjen.UserRole;
 import com.theconnman.Role
-import com.theconnman.User
-import com.theconnman.UserRole
 
 class BootStrap {
 	

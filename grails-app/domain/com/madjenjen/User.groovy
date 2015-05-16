@@ -1,4 +1,5 @@
-package com.theconnman
+package com.madjenjen
+
 
 class User {
 
