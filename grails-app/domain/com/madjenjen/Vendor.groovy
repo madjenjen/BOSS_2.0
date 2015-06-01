@@ -2,10 +2,13 @@ package com.madjenjen
 
 class Vendor {
 	
-	String VendorName
-	String VendorAddress
-	String VendorWebsite
-	String VendorPhone
+	String vendorName
+	String vendorLink
+	String vendorPhone
+	String vendorFax
+	String vendorContact
+	String poMethod
+	Address vendorAddress
 
     static constraints = {
     }
