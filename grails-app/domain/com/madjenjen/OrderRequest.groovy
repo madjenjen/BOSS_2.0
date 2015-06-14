@@ -20,9 +20,9 @@ class OrderRequest {
 	static hasMany = [orderEntry : OrderEntry]
 	
     static constraints = {
-		orderType inList: ["OCO", "A", "B", "C"]
-		purchaseMethod inList: ["P-Card", "A", "B", "C"]
-		shipMethod inList: ["FedEx 2-day", "FedEx"]
+		orderType inList: ["OCO", "OE", "OPS"]
+		purchaseMethod inList: ["P-Card", "PO", "Cash", "Team Account"]
+		shipMethod inList: ["FedEx 2-day", "FedEx Overnight", "Ground", "FedEx Intrnl Economy", "FedEx Intrnl Priority", "FedEx 3-days", "FedEx Priority Overnight", "N/A"]
 		
     }
 }
