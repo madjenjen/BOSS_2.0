@@ -2,10 +2,11 @@ package com.madjenjen
 
 class Part {
 	
-	String partName
-	String partDescription
-	Vendor vendor
-
-    static constraints = {
-    }
+	String partNumber
+	Integer Quantity
+	String Description
+	Double priceEach
+	Double Price
+	
+	static belongsTo=[order: Order]
 }
