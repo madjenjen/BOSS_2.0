@@ -1,6 +1,6 @@
 package com.madjenjen
 
 class Project {
-	String Name
+	String name
 	ServiceInfo serviceInfo
 }

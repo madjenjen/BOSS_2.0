@@ -3,10 +3,10 @@ package com.madjenjen
 class Part {
 	
 	String partNumber
-	Integer Quantity
-	String Description
+	Integer quantity
+	String description
 	Double priceEach
-	Double Price
+	Double price
 	
-	static belongsTo=[order: Order]
+	static belongsTo = [orderRequest : OrderRequest]
 }
